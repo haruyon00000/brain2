@@ -1,0 +1,52 @@
+.container{
+    position: relative;
+}
+
+.div-h2{
+    position: absolute;
+    left: 47%;
+    top: 3%;
+}
+
+.div-div{
+    position: absolute;
+    left: 47%;
+    top: 30%;
+}
+
+img{
+    width: 100%;
+    opacity: 0.3;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    color: #444444;
+    margin: 70px 0px 60px 0px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.answer {
+    color: #ff0000;
+    margin: 70px 0px 60px 0px;
+    text-align: center;
+    font-size: 35px;
+}
+
+form {
+    text-align: center;
+}
+
+.file_choose{
+    color: #444444;
+    font-size: 30px;
+}
+
+.btn{
+    color: #ff0000;
+    font-size: 30px;
+}

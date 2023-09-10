@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Brain Tumor Detection</title>
+    <link rel="stylesheet" href="static/stylesheet.css">
+</head>
+<body class="margin: 0px">
+<div>
+    <div class="main">
+        <div class="container">
+            <img class="img-container" src="static/IMG.jpeg" alt="">
+            <div class="div-div">
+                <h2>AIが送信された脳画像を識別します</h2>  
+                <p>画像を送信してください</p>
+                <form method="POST" enctype="multipart/form-data">
+                    <input class="file_choose" type="file" name="file">
+                    <input class="btn" value="submit!" type="submit">
+                </form>
+                <div class="answer">{{answer}}</div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
